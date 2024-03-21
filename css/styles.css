@@ -8,6 +8,8 @@
     display: grid;
     place-items: center;
     min-height: 100vh;
+    background-color:beige;
+    position: relative;
 }
 
 .heading {
@@ -18,7 +20,7 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3em;
+    grid-gap: 1.5em;
 }
 
 .card {
@@ -59,4 +61,34 @@
 .card.shake{
     background-color: #ef1717;
     animation: shake 0.5s;
+}
+
+.container button{
+    background-color: #E08B9E;
+    border-style: none;
+    padding: 28% 7%;
+    border-radius: 5em;
+    font-size: 2em;
+    font-family: "responder-p", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+}
+
+.container h2{
+    font-family: "responder-p", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.5em;
+    color:#e6476b;
+    border-style: double;
+    border-radius: 1em;
+    border-color: #e6476b;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container button:hover{
+    font-size: 2.2em;
 }
