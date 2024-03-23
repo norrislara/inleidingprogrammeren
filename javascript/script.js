@@ -15,7 +15,7 @@ function speelCorrectGeluid() {
 }
 
 function speelIncorrectGeluid() {
-    const audio = new Audio('audio/incorrect.mov');
+    const audio = new Audio('audio/incorrect.mp3');
     audio.play();
 }
 
